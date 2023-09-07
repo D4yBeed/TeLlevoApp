@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>TeLlevoApp</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <form action="" class="form_main">
+    <p class="heading">Bienvenido </p><p>Juan</p>
+    <p>¿Que deseas?</p>
+
+    <form action="" class="container">
+      <input class="input-btn" type="radio" id="valueIs-2" name="valueIs-radio" value="valueIs-2">
+      <label class="neon-btn" for="valueIs-2">
+          <span class="span"></span>
+          <span class="txt">Solicitar</span>
+      </label>
+
+      <input class="input-btn" type="radio" id="valueIs-2" name="valueIs-radio" value="valueIs-2">
+      <label class="neon-btn" for="valueIs-2">
+          <span class="span"></span>
+          <span class="txt">Llevar</span>
+      </label>
+  </form>    
+           
+  <!-- <button [routerLink]="['/home']" id="button">Hacer dedo</button>
+  <button [routerLink]="['/home']" id="button">Me saco el auto</button> -->
+
+  </form>
+  
+
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home">
+        <ion-icon name="home"></ion-icon>
+        Inicio
+      </ion-tab-button>
+      <ion-tab-button tab="radio">
+        <ion-icon name="car"></ion-icon>
+        Viajes
+      </ion-tab-button>
+      <ion-tab-button tab="library">
+        <ion-icon name="book"></ion-icon>
+        Historial
+      </ion-tab-button>
+      <ion-tab-button tab="search">
+        <ion-icon name="person"></ion-icon>
+        Cuenta
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>
